@@ -1,5 +1,5 @@
 {
-  "name": "@socifi/eslint-config-socifi",
+  "name": "eslint-config-socifi",
   "version": "1.0.0",
   "description": "Pluggable ESLint config used in SOCIFI",
   "main": "index.js",
