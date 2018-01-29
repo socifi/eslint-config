@@ -37,6 +37,8 @@ module.exports = {
         'compat/compat': 2,
         'jsx-a11y/href-no-hash': 0, // Definition for rule 'jsx-a11y/href-no-hash' was not found
         'arrow-body-style': 0, // return statement sometimes needs to be surrounded by {}
+        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], // allow ++ syntax for for each cycle
+        'class-methods-use-this': 0, // Do not require this in class methods
     },
     parserOptions: {
         sourceType: 'module',
