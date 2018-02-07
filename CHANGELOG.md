@@ -2,12 +2,12 @@
 All notable changes to this project will be documented in this file.
 
 
-## [1.3.0] 2018-01-02
+## [1.3.0] 2018-02-07
 ### Added
 - Add support for Jest
 
 
-## [1.2.0] 2018-01-02
+## [1.2.0] 2018-02-01
 ### Changed
 - Update rules for react.
 
