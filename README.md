@@ -37,6 +37,7 @@ module.exports = {
         'socifi',
         'socifi/react',
         'socifi/jasmine',
+        'socifi/jest',
     ],
 };
 ```

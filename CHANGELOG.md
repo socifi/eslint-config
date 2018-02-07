@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+
+## [1.3.0] 2018-01-02
+### Added
+- Add support for Jest
+
+
 ## [1.2.0] 2018-01-02
 ### Changed
 - Update rules for react.
@@ -10,6 +16,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - Fix missing babel-eslint dependency.
+
 
 ## [1.1.0] 2018-01-29
 ### Changed

@@ -39,6 +39,7 @@ module.exports = {
         'arrow-body-style': 0, // return statement sometimes needs to be surrounded by {}
         'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], // allow ++ syntax for for each cycle
         'class-methods-use-this': 0, // Do not require this in class methods
+        'import/prefer-default-export': 0, // In some cases it is not need
     },
     parserOptions: {
         sourceType: 'module',
