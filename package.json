@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-socifi",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Pluggable ESLint config used in SOCIFI",
   "main": "index.js",
   "publishConfig": {

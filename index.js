@@ -63,8 +63,5 @@ module.exports = {
         flowtype: {
             'onlyFilesWithFlowAnnotation': false,
         },
-        'import/resolver': {
-            'babel-module': {},
-        },
     },
 };

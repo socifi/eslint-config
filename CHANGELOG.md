@@ -2,9 +2,14 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.4.0] 2018-02-27
+### Changed
+- Separated babel resolver to own config set.
+
+
 ## [1.3.0] 2018-02-07
 ### Added
-- Add support for Jest
+- Add support for Jest.
 
 
 ## [1.2.0] 2018-02-01
