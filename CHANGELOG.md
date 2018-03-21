@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.5.0] 2018-03-21
+### Changed
+- Turn off some jsdocs warn. It is no need to define variable type in docs since we are using flow definitions.
+
+
 ## [1.4.0] 2018-02-27
 ### Changed
 - Separated babel resolver to own config set.
