@@ -9,7 +9,7 @@ This is default ESlint configurations for projects in SOCIFI.
 First install the package:
 
 ```nodemon
-npm install @socifi/eslint-config-socifi --save-dev
+npm install @socifi/eslint-config --save-dev
 ```
 
 and update you ESLint configuration:
