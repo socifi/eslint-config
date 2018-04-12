@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.6.2] 2018-04-12
+### Added
+- Add peer dependency
+
+
 ## [1.6.0] 2018-04-12
 ### Added
 - Add new rules for filenames

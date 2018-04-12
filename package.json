@@ -1,6 +1,6 @@
 {
-  "name": "@socifi/eslint-config-socifi",
-  "version": "1.6.1",
+  "name": "@socifi/eslint-config",
+  "version": "1.6.2",
   "description": "Shared ESLint config used in SOCIFI",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,7 @@
     "eslintconfig"
   ],
   "author": "Michal Ozogán <michal@socifi.com>",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.0",
@@ -30,7 +30,10 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-unicorn": "^4.0.3"
+    "eslint-plugin-unicorn": "^4.0.3",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.12.0"
   },
   "devDependencies": {
     "jest": "^22.4.3"

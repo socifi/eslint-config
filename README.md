@@ -37,10 +37,10 @@ There are more extendable configurations for tests or different envs:
 module.exports = {
     extends: [
         '@socifi',
-        '@socifi/react',
-        '@socifi/jasmine',
-        '@socifi/jest',
-        '@socifi/babel-resolver',
+        '@socifi/eslint-config/react',
+        '@socifi/eslint-config/jasmine',
+        '@socifi/eslint-config/jest',
+        '@socifi/eslint-config/babel-resolver',
     ],
 };
 ```
