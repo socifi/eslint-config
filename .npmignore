@@ -1,4 +1,5 @@
 node_modules
 .npmignore
 .idea
-.gitattributes
+tests
+.travis.yml

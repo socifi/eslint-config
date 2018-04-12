@@ -1,13 +1,15 @@
 # ESLint Config SOCIFI
 
-This is default eslint configurations for projects in SOCIFI.
+[![npm version](https://badge.fury.io/js/@socifi/eslint-config-socifi.svg)](https://badge.fury.io/js/@socifi/eslint-config-socifi)
+
+This is default ESlint configurations for projects in SOCIFI.
 
 ## Usage
 
 First install the package:
 
 ```nodemon
-npm install eslint-config-socifi --save-dev
+npm install @socifi/eslint-config-socifi --save-dev
 ```
 
 and update you ESLint configuration:
@@ -15,7 +17,7 @@ and update you ESLint configuration:
 ```javascript
 module.exports = {
     extends: [
-        'socifi',
+        '@socifi',
     ],
 };
 
@@ -29,15 +31,16 @@ In basic configuration following plugins are included:
 - **compat** - To check that used features are supported by certain browsers.
 - **flowtype** - We use static analysis tool Flow.
 
-There are two extendable configurations:
+There are more extendable configurations for tests or different envs:
 
 ```javascript
 module.exports = {
     extends: [
-        'socifi',
-        'socifi/react',
-        'socifi/jasmine',
-        'socifi/jest',
+        '@socifi',
+        '@socifi/react',
+        '@socifi/jasmine',
+        '@socifi/jest',
+        '@socifi/babel-resolver',
     ],
 };
 ```

@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.6.0] 2018-04-12
+### Added
+- Add new rules for filenames
+- Add unicorn plugin
+- Add array func plugin
+- Add tests
+- Add automatic deploy
+
+
+### Changed
+- Move to socifi scope in npm
+
 ## [1.5.0] 2018-03-21
 ### Changed
 - Turn off some jsdocs warn. It is no need to define variable type in docs since we are using flow definitions.

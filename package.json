@@ -1,11 +1,8 @@
 {
-  "name": "eslint-config-socifi",
-  "version": "1.5.0",
-  "description": "Pluggable ESLint config used in SOCIFI",
+  "name": "@socifi/eslint-config-socifi",
+  "version": "1.6.0",
+  "description": "Shared ESLint config used in SOCIFI",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/socifi/eslint-config-socifi"
@@ -16,12 +13,15 @@
     "eslintconfig"
   ],
   "author": "Michal Ozogán <michal@socifi.com>",
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.0",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-find-rules": "^3.2.2",
+    "eslint-plugin-array-func": "^3.0.0",
     "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jasmine": "^2.9.3",
@@ -29,6 +29,15 @@
     "eslint-plugin-jsdoc": "^3.5.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-unicorn": "^4.0.3"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js",
+    "lint": "eslint *.js --config index.js",
+    "pre-pr": "npm run test && npm run lint"
   }
 }
