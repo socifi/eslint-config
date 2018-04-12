@@ -1,6 +1,6 @@
 # ESLint Config SOCIFI
 
-[![npm version](https://badge.fury.io/js/@socifi/eslint-config-socifi.svg)](https://badge.fury.io/js/@socifi/eslint-config-socifi)
+[![npm version](https://badge.fury.io/js/%40socifi%2Feslint-config-socifi.svg)](https://badge.fury.io/js/%40socifi%2Feslint-config-socifi)
 
 This is default ESlint configurations for projects in SOCIFI.
 
