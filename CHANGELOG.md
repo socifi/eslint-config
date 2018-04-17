@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.7.0] 2018-04-17
+### Added
+- Added testing via circleci and automatic publishing
+
+
 ## [1.6.2] 2018-04-12
 ### Added
 - Add peer dependency
