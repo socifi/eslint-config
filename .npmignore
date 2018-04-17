@@ -1,5 +1,2 @@
-node_modules
-.npmignore
 .idea
 tests
-.travis.yml

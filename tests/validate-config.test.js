@@ -2,6 +2,7 @@ const eslint = require('eslint');
 const fs = require('fs');
 
 // import-modules uses require.extensions but it is not supported by jest
+// this will mock the function and import modules
 jest.mock('import-modules', () => {
     return (dir) => {
         const fs = require('fs');
@@ -25,11 +26,10 @@ jest.mock('import-modules', () => {
     };
 });
 
-function getErrorCount(configFile) {
+function getErrors(configFile) {
     const CLIEngine = eslint.CLIEngine;
 
     const cli = new CLIEngine({
-        useEslintrc: false,
         configFile: configFile,
     });
 
@@ -39,7 +39,7 @@ function getErrorCount(configFile) {
 describe('Validate configs by eslint', () => {
     ['index.js', 'react.js', 'jasmine.js', 'jest.js', 'babel-resolver.js'].forEach((file) => {
         it(`load config ${file} in eslint to validate all rule syntax is correct`, () => {
-            expect(getErrorCount(file).results[0].messages).toEqual([]);
+            expect(getErrors(file).results[0].messages).toEqual([]);
         });
     });
 });

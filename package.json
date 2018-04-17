@@ -5,15 +5,24 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/socifi/eslint-config-socifi"
+    "url": "https://github.com/socifi/eslint-config.git"
   },
+  "bugs": {
+    "url": "https://github.com/socifi/eslint-config/issues"
+  },
+  "homepage": "https://github.com/socifi/eslint-config",
+  "author": "Michal Ozogán <michal@socifi.com>",
+  "license": "Apache-2.0",
   "keywords": [
     "eslint",
     "eslint-config",
     "eslintconfig"
   ],
-  "author": "Michal Ozogán <michal@socifi.com>",
-  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint *.js --config index.js",
+    "test": "node node_modules/jest/bin/jest.js",
+    "test-and-lint": "npm run test && npm run lint"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.0",
@@ -28,19 +37,14 @@
     "eslint-plugin-jest": "^21.15.0",
     "eslint-plugin-jsdoc": "^3.5.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-unicorn": "^4.0.3",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.12.0"
+    "prettier": "^1.12.1"
   },
   "devDependencies": {
     "jest": "^22.4.3"
-  },
-  "scripts": {
-    "test": "node node_modules/jest/bin/jest.js",
-    "lint": "eslint *.js --config index.js",
-    "pre-pr": "npm run test && npm run lint"
   }
 }

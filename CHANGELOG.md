@@ -15,9 +15,9 @@ All notable changes to this project will be documented in this file.
 - Add tests
 - Add automatic deploy
 
-
 ### Changed
 - Move to socifi scope in npm
+
 
 ## [1.5.0] 2018-03-21
 ### Changed
