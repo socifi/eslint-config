@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
+      - run: sudo npm install -g npm@latest
       - run: npm ci
       - run: npm run lint
       - run: npm run test
