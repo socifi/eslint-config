@@ -10,15 +10,15 @@ jobs:
       - run: npm run lint
       - run: npm run test
   publish:
-      docker:
-        - image: circleci/node:latest
-      steps:
-        - checkout
-        - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-        - run: npm publish
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: npm publish
 workflows:
   version: 2
-  build-and-publish:
+  build_and_test:
     jobs:
       - build
       - publish:
@@ -27,3 +27,4 @@ workflows:
           filters:
             tags:
               only: /v[0-9]+(\.[0-9]+)*/
+
