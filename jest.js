@@ -11,3 +11,4 @@ module.exports = {
         'promise/no-callback-in-promise': 0,
     },
 };
+
