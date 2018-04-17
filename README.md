@@ -1,7 +1,7 @@
 # ESLint Config SOCIFI
 
 [![npm version](https://badge.fury.io/js/%40socifi%2Feslint-config.svg)](https://badge.fury.io/js/%40socifi%2Feslint-config)
-[![CircleCI](https://circleci.com/gh/socifi/eslint-config/tree/master.svg?style=svg)](https://circleci.com/gh/socifi/eslint-config/tree/master)
+[![CircleCI](https://circleci.com/gh/socifi/eslint-config/tree/master.svg?style=shield)](https://circleci.com/gh/socifi/eslint-config/tree/master)
 
 
 This is default ESlint configurations for projects in SOCIFI.
