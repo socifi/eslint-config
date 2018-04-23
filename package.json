@@ -22,7 +22,8 @@
     "lint": "eslint *.js --config index.js",
     "test": "node node_modules/jest/bin/jest.js",
     "test-and-lint": "npm run test && npm run lint",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "release": "semantic-release"
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",
@@ -49,7 +50,6 @@
     "@commitlint/config-conventional": "^6.1.3",
     "@socifi/commitlint-config": "^0.7.0",
     "@socifi/semantic-release-config": "^0.7.0",
-    "commitlint": "^6.1.3",
     "husky": "^0.14.3",
     "jest": "^22.4.3"
   }
