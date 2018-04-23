@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.8.0] 2018-04-23
+### Fixed
+- [RND-9](https://socifi.atlassian.net/browse/RND-9) Released script
+
+### Changed
+- [RND-9](https://socifi.atlassian.net/browse/RND-9) Use context in circleci
+
 ## [1.7.0] 2018-04-17
 ### Added
 - Added testing via circleci and automatic publishing
