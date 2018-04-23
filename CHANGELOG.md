@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.8.1] 2018-04-23
+### Fixed
+- Maintenence release that fix version mismash [RND-9](https://socifi.atlassian.net/browse/RND-9)
+
 ## [1.8.0] 2018-04-23
 ### Changed
 - [RND-9](https://socifi.atlassian.net/browse/RND-9) Use context in circleci
