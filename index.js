@@ -30,7 +30,7 @@ module.exports = {
         'jsdoc/require-param': 0,
         'jsdoc/require-param-type': 0,
         'jsdoc/require-returns-description': 0,
-        'jsdoc/require-returns-type': 1,
+        'jsdoc/require-returns-type': 0, // type is defined by flow
         'promise/avoid-new': 0,
         'promise/always-return': 1,
         'promise/no-return-wrap': 1,
@@ -49,6 +49,7 @@ module.exports = {
         'array-func/no-unnecessary-this-arg': 2,
         'array-func/prefer-array-from': 2,
         'array-func/avoid-reverse': 2,
+        'no-underscore-dangle': 0, // _ can be user for private methods
     },
     parserOptions: {
         sourceType: 'module',
