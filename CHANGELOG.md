@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.10.0] 2018-06-15
+### Changed
+- [DAS-6](https://socifi.atlassian.net/browse/DAS-6) Make flow fix only warning.
+
 ## [1.9.0] 2018-06-11
 ### Changed
 - [RND-14](https://socifi.atlassian.net/browse/RND-14) Disable rules no-underscore-dangle and jsdoc/require-returns-type
