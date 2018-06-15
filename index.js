@@ -42,7 +42,7 @@ module.exports = {
         'jsx-a11y/anchor-is-valid': 1,
         'jsx-a11y/href-no-hash': 0, // Definition for rule 'jsx-a11y/href-no-hash' was not found
         'import/prefer-default-export': 0, // In some cases it is not need
-        'flowtype/no-flow-fix-me-comments': 2,
+        'flowtype/no-flow-fix-me-comments': 1, // flow fix should be only warning
         'unicorn/filename-case': 0,
         'filenames/match-exported': 2,
         'array-func/from-map': 2,
