@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] 2018-10-24
+### Changed
+- Migrate from Flow to Typescript BREAKING
+
 ## [1.10.0] 2018-06-15
 ### Changed
 - [DAS-6](https://socifi.atlassian.net/browse/DAS-6) Make flow fix only warning.
