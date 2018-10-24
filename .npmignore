@@ -2,3 +2,5 @@
 tests
 .circleci
 release.config.js
+.huskyrc.js
+commitlint.config.js

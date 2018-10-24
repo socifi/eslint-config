@@ -31,7 +31,10 @@ In basic configuration following plugins are included:
 - **jsdoc** - Predefined style for comments of methods.
 - **promise** - Predefined style for promises.
 - **compat** - To check that used features are supported by certain browsers.
-- **flowtype** - We use static analysis tool Flow.
+- **unicorn** - Various lints.
+- **filenames** - Lint file names.
+- **typescript**
+- **array-func**
 
 There are more extendable configurations for tests or different envs:
 

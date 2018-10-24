@@ -1,11 +1,29 @@
 module.exports = {
-    parser: 'babel-eslint',
+    parser: 'typescript-eslint-parser',
     extends: [
         'airbnb',
-        'plugin:flowtype/recommended',
         'plugin:promise/recommended',
         'plugin:unicorn/recommended',
     ],
+    settings: {
+        'import/resolver': {
+            node: {
+                moduleDirectory: [
+                    'node_modules',
+                    'src',
+                ],
+                extensions: [
+                    '.js',
+                    '.ts',
+                    '.tsx',
+                ],
+            },
+        },
+        polyfills: [
+            'fetch',
+            'promises',
+        ],
+    },
     rules: {
         indent: [2, 4],
         'max-len': [2, 140],
@@ -42,7 +60,6 @@ module.exports = {
         'jsx-a11y/anchor-is-valid': 1,
         'jsx-a11y/href-no-hash': 0, // Definition for rule 'jsx-a11y/href-no-hash' was not found
         'import/prefer-default-export': 0, // In some cases it is not need
-        'flowtype/no-flow-fix-me-comments': 1, // flow fix should be only warning
         'unicorn/filename-case': 0,
         'filenames/match-exported': 2,
         'array-func/from-map': 2,
@@ -50,6 +67,10 @@ module.exports = {
         'array-func/prefer-array-from': 2,
         'array-func/avoid-reverse': 2,
         'no-underscore-dangle': 0, // _ can be user for private methods
+        'import/extensions': [2, { ts: 'never', tsx: 'never' }],
+        'no-undef': 0, // conflict with typescript plugin
+        'no-restricted-globals': 0, // conflict with typescript plugin
+        'typescript/member-delimiter-style': [2, { delimiter: 'comma' }],
     },
     parserOptions: {
         sourceType: 'module',
@@ -67,14 +88,9 @@ module.exports = {
         'jsdoc',
         'promise',
         'compat',
-        'flowtype',
         'unicorn',
         'filenames',
         'array-func',
+        'typescript',
     ],
-    settings: {
-        flowtype: {
-            onlyFilesWithFlowAnnotation: false,
-        },
-    },
 };
