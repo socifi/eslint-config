@@ -57,8 +57,7 @@ module.exports = {
         'promise/no-promise-in-callback': 1,
         'promise/no-callback-in-promise': 1,
         'compat/compat': 2,
-        'jsx-a11y/anchor-is-valid': 1,
-        'jsx-a11y/href-no-hash': 0, // Definition for rule 'jsx-a11y/href-no-hash' was not found
+        'unicorn/no-abusive-eslint-disable': 0, // sometimes it's just need
         'import/prefer-default-export': 0, // In some cases it is not need
         'unicorn/filename-case': 0,
         'filenames/match-exported': 2,
@@ -70,7 +69,30 @@ module.exports = {
         'import/extensions': [2, { ts: 'never', tsx: 'never' }],
         'no-undef': 0, // conflict with typescript plugin
         'no-restricted-globals': 0, // conflict with typescript plugin
+        'global-require': 0, // conflict with typescript plugin
+        'no-unused-vars': 0, // conflict with typescript plugin
+        'import/no-dynamic-require': 0, // we need dynamic import of chunks...
+        'jsx-a11y/anchor-is-valid': 0, // rule does not exist
+        'typescript/adjacent-overload-signatures': 2,
+        'typescript/class-name-casing': 2,
+        'typescript/explicit-function-return-type': [2, { allowExpressions: true }],
+        'typescript/explicit-member-accessibility': 2,
+        'typescript/interface-name-prefix': 2,
         'typescript/member-delimiter-style': [2, { delimiter: 'comma' }],
+        'typescript/member-naming': 2,
+        'typescript/no-angle-bracket-type-assertion': 2,
+        'typescript/no-array-constructor': 2,
+        'typescript/no-empty-interface': 2,
+        'typescript/no-inferrable-types': 2,
+        'typescript/no-namespace': 2,
+        'typescript/no-non-null-assertion': 2,
+        'typescript/no-parameter-properties': 2,
+        'typescript/no-triple-slash-reference': 2,
+        'typescript/no-unused-vars': 2,
+        'typescript/no-use-before-define': 2,
+        'typescript/no-var-requires': 2,
+        'typescript/prefer-namespace-keyword': 2,
+        'typescript/type-annotation-spacing': 2,
     },
     parserOptions: {
         sourceType: 'module',
