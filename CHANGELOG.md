@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] 2018-11-23
+### Changed
+- Disable some rules and upgrade packages.
+
 ## [2.0.1] 2018-10-31
 ### Fixed
 - Added missing rules for Typescript.
