@@ -4,6 +4,7 @@ module.exports = {
         'airbnb',
         'plugin:promise/recommended',
         'plugin:unicorn/recommended',
+        'plugin:jsx-a11y/recommended',
     ],
     settings: {
         'import/resolver': {
@@ -63,8 +64,10 @@ module.exports = {
         'filenames/match-exported': 2,
         'array-func/from-map': 2,
         'array-func/no-unnecessary-this-arg': 2,
-        'array-func/prefer-array-from': 2,
+        'array-func/prefer-array-from': 0, // I don't like it
         'array-func/avoid-reverse': 2,
+        'unicorn/catch-error-name': [2, { name: 'exception' }],
+        'no-empty-function': 0, // you need this to implement some interfaces
         'no-underscore-dangle': 0, // _ can be user for private methods
         'import/extensions': [2, { ts: 'never', tsx: 'never' }],
         'no-undef': 0, // conflict with typescript plugin
