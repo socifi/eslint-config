@@ -5,6 +5,7 @@ module.exports = {
         'plugin:promise/recommended',
         'plugin:unicorn/recommended',
         'plugin:jsx-a11y/recommended',
+        'plugin:sonarjs/recommended',
     ],
     settings: {
         'import/resolver': {
@@ -117,5 +118,6 @@ module.exports = {
         'filenames',
         'array-func',
         'typescript',
+        'sonarjs',
     ],
 };

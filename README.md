@@ -33,6 +33,7 @@ In basic configuration following plugins are included:
 - **compat** - To check that used features are supported by certain browsers.
 - **unicorn** - Various lints.
 - **filenames** - Lint file names.
+- **sonar** - various piggy code detection
 - **typescript**
 - **array-func**
 
