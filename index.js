@@ -88,7 +88,7 @@ module.exports = {
         'typescript/no-array-constructor': 2,
         'typescript/no-empty-interface': 2,
         'typescript/no-inferrable-types': 2,
-        'typescript/no-namespace': 2,
+        'typescript/no-namespace': 0, // namespaces are nice thing
         'typescript/no-non-null-assertion': 2,
         'typescript/no-parameter-properties': 2,
         'typescript/no-triple-slash-reference': 2,
