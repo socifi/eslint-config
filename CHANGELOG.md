@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.4.0] 2018-12-01
+### Changed
+- Disable some lints for unit tests
+
 ## [2.3.0] 2018-11-28
 ### Changed
 - Allow namespaces in typescript lint
