@@ -97,6 +97,7 @@ module.exports = {
         'typescript/no-var-requires': 2,
         'typescript/prefer-namespace-keyword': 2,
         'typescript/type-annotation-spacing': 2,
+        'no-dupe-class-members': 0, // dont work for typescript
     },
     parserOptions: {
         sourceType: 'module',
