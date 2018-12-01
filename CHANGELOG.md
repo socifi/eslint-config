@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.5.0] 2018-12-01
+### Changed
+- Supress warning about dupe methods because of typescript
+
 ## [2.4.0] 2018-12-01
 ### Changed
 - Disable some lints for unit tests
