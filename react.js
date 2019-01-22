@@ -14,4 +14,10 @@ module.exports = {
     plugins: [
         'react',
     ],
+    settings: {
+        react: {
+            pragma: 'React',
+            version: '16.7',
+        },
+    },
 };

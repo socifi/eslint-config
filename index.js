@@ -1,5 +1,5 @@
 module.exports = {
-    parser: 'typescript-eslint-parser',
+    parser: '@typescript-eslint/parser',
     extends: [
         'airbnb',
         'plugin:promise/recommended',
@@ -40,17 +40,6 @@ module.exports = {
         'arrow-body-style': 0, // return statement sometimes needs to be surrounded by {}
         'no-plusplus': ['error', { allowForLoopAfterthoughts: true }], // allow ++ syntax for for each cycle
         'class-methods-use-this': 0, // Do not require this in class methods
-        'jsdoc/check-param-names': 1,
-        'jsdoc/check-tag-names': 1,
-        'jsdoc/check-types': 1,
-        'jsdoc/newline-after-description': 1,
-        'jsdoc/require-description-complete-sentence': 0,
-        'jsdoc/require-hyphen-before-param-description': 1,
-        'jsdoc/require-param-description': 0,
-        'jsdoc/require-param': 0,
-        'jsdoc/require-param-type': 0,
-        'jsdoc/require-returns-description': 0,
-        'jsdoc/require-returns-type': 0, // type is defined by flow
         'promise/avoid-new': 0,
         'promise/always-return': 1,
         'promise/no-return-wrap': 1,
@@ -112,7 +101,6 @@ module.exports = {
     },
     plugins: [
         'import',
-        'jsdoc',
         'promise',
         'compat',
         'unicorn',
