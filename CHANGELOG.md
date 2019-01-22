@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.6.0] 2019-01-22
+### Changed
+- Update version of dependencies
+
 ## [2.5.0] 2018-12-01
 ### Changed
 - Supress warning about dupe methods because of typescript
