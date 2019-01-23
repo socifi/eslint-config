@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 module.exports = {
     parser: '@typescript-eslint/parser',
     extends: [
@@ -75,7 +76,7 @@ module.exports = {
         'typescript/member-naming': 2,
         'typescript/no-angle-bracket-type-assertion': 2,
         'typescript/no-array-constructor': 2,
-        'typescript/no-empty-interface': 2,
+        'typescript/no-empty-interface': 0, // disabled temporarily, there is some bug in parser - https://github.com/typescript-eslint/typescript-eslint/issues/45#issuecomment-455741596
         'typescript/no-inferrable-types': 2,
         'typescript/no-namespace': 0, // namespaces are nice thing
         'typescript/no-non-null-assertion': 2,
