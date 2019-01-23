@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.6.1] 2019-01-23
+### Fixed
+- There was a problem with parser, no empty interface rule has to be disabled
+
 ## [2.6.0] 2019-01-22
 ### Changed
 - Update version of dependencies
