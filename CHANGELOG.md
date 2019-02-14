@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.0] 2019-02-14
+### Changed
+- Update to the latest typescript plugin
+
 ## [2.6.1] 2019-01-23
 ### Fixed
 - There was a problem with parser, no empty interface rule has to be disabled
