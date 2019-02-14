@@ -7,6 +7,7 @@ module.exports = {
         'plugin:unicorn/recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:sonarjs/recommended',
+        'plugin:@typescript-eslint/recommended',
     ],
     settings: {
         'import/resolver': {
@@ -32,6 +33,7 @@ module.exports = {
         'max-len': [2, 140],
         'no-console': 'warn',
         complexity: [1, 6],
+        curly: [2, 'all'],
         'max-depth': [2, 5],
         'max-lines': [1],
         'max-params': [2, 5],
@@ -48,6 +50,8 @@ module.exports = {
         'promise/catch-or-return': 2,
         'promise/no-promise-in-callback': 1,
         'promise/no-callback-in-promise': 1,
+        'promise/prefer-await-to-callbacks': 2,
+        'promise/prefer-await-to-then': 2,
         'compat/compat': 2,
         'unicorn/no-abusive-eslint-disable': 0, // sometimes it's just need
         'import/prefer-default-export': 0, // In some cases it is not need
@@ -67,27 +71,19 @@ module.exports = {
         'no-unused-vars': 0, // conflict with typescript plugin
         'import/no-dynamic-require': 0, // we need dynamic import of chunks...
         'jsx-a11y/anchor-is-valid': 0, // rule does not exist
-        'typescript/adjacent-overload-signatures': 2,
-        'typescript/class-name-casing': 2,
-        'typescript/explicit-function-return-type': [2, { allowExpressions: true }],
-        'typescript/explicit-member-accessibility': 2,
-        'typescript/interface-name-prefix': 2,
-        'typescript/member-delimiter-style': [2, { delimiter: 'comma' }],
-        'typescript/member-naming': 2,
-        'typescript/no-angle-bracket-type-assertion': 2,
-        'typescript/no-array-constructor': 2,
-        'typescript/no-empty-interface': 0, // disabled temporarily, there is some bug in parser - https://github.com/typescript-eslint/typescript-eslint/issues/45#issuecomment-455741596
-        'typescript/no-inferrable-types': 2,
-        'typescript/no-namespace': 0, // namespaces are nice thing
-        'typescript/no-non-null-assertion': 2,
-        'typescript/no-parameter-properties': 2,
-        'typescript/no-triple-slash-reference': 2,
-        'typescript/no-unused-vars': 2,
-        'typescript/no-use-before-define': 2,
-        'typescript/no-var-requires': 2,
-        'typescript/prefer-namespace-keyword': 2,
-        'typescript/type-annotation-spacing': 2,
         'no-dupe-class-members': 0, // dont work for typescript
+        '@typescript-eslint/explicit-function-return-type': 0,
+        '@typescript-eslint/no-namespace': 0,
+        '@typescript-eslint/member-delimiter-style': [2, {
+            multiline: {
+                delimiter: 'comma',
+                requireLast: true,
+            },
+            singleline: {
+                delimiter: 'comma',
+                requireLast: true,
+            },
+        }],
     },
     parserOptions: {
         sourceType: 'module',
@@ -107,7 +103,7 @@ module.exports = {
         'unicorn',
         'filenames',
         'array-func',
-        'typescript',
+        '@typescript-eslint',
         'sonarjs',
     ],
 };
