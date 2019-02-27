@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.1] 2019-02-27
+### Fixed
+- Lints for typescript
+
 ## [2.7.0] 2019-02-14
 ### Changed
 - Update to the latest typescript plugin
