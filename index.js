@@ -74,6 +74,9 @@ module.exports = {
         'no-dupe-class-members': 0, // dont work for typescript
         '@typescript-eslint/explicit-function-return-type': 0,
         '@typescript-eslint/no-namespace': 0,
+        'no-useless-constructor': 0, // sometimes its handy
+        'no-param-reassign': 0, // for decorators it's handy
+        '@typescript-eslint/no-parameter-properties': 0,
         '@typescript-eslint/member-delimiter-style': [2, {
             multiline: {
                 delimiter: 'comma',
@@ -81,7 +84,7 @@ module.exports = {
             },
             singleline: {
                 delimiter: 'comma',
-                requireLast: true,
+                requireLast: false,
             },
         }],
     },
