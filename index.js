@@ -76,6 +76,7 @@ module.exports = {
         '@typescript-eslint/no-namespace': 0,
         'no-useless-constructor': 0, // sometimes its handy
         'no-param-reassign': 0, // for decorators it's handy
+        'unicorn/prevent-abbreviations': 0,
         '@typescript-eslint/no-parameter-properties': 0,
         '@typescript-eslint/member-delimiter-style': [2, {
             multiline: {
