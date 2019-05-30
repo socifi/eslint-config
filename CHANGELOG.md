@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.8.0] 2019-05-30
+### Changed
+- Updated dependencies
+
 ## [2.7.1] 2019-02-27
 ### Fixed
 - Lints for typescript
