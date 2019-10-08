@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.9.0] 2019-10-08
+### Changed
+- Update libraries.
+
 ## [2.8.0] 2019-05-30
 ### Changed
 - Updated dependencies
