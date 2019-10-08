@@ -26,7 +26,6 @@ const importModules = (dir) => {
 // this will mock the function and import modules
 // this is for unicorn eslint and typescript eslint
 jest.setMock('import-modules', importModules);
-jest.setMock('requireindex', importModules);
 
 function getErrors(configFile) {
     const { CLIEngine } = eslint;
