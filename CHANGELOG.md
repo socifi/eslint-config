@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.10.0] 2019-10-21
+### Changed
+- Better handling of ts vs js files
+
 ## [2.9.0] 2019-10-08
 ### Changed
 - Update libraries.
