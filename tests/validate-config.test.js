@@ -34,7 +34,7 @@ function getErrors(configFile) {
         configFile,
     });
 
-    return cli.executeOnText(fs.readFileSync('./index.js', 'utf8'));
+    return cli.executeOnText(fs.readFileSync('./jest.js', 'utf8'));
 }
 
 describe('Validate configs by eslint', () => {
