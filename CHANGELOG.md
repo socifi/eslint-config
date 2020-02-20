@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.10.1] 2020-02-20
+### Fixed
+- Use typescript linting even for tsx
+
 ## [2.10.0] 2019-10-21
 ### Changed
 - Better handling of ts vs js files
