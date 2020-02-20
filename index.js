@@ -84,6 +84,7 @@ module.exports = {
                 'plugin:@typescript-eslint/recommended',
             ],
             rules: {
+                'no-unused-expressions': 0, // conflict with typescript plugin
                 'no-undef': 0, // conflict with typescript plugin
                 'no-restricted-globals': 0, // conflict with typescript plugin
                 'global-require': 0, // conflict with typescript plugin
