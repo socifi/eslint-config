@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.10.2] 2020-02-20
+### Fixed
+- Some new default values from updated libraries.
+
 ## [2.10.1] 2020-02-20
 ### Fixed
 - Use typescript linting even for tsx

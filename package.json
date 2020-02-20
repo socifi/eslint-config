@@ -1,6 +1,6 @@
 {
   "name": "@socifi/eslint-config",
-  "version": "2.10.1",
+  "version": "2.10.2",
   "description": "Shared ESLint config used in SOCIFI",
   "main": "index.js",
   "repository": {
